@@ -1,0 +1,35 @@
+body {
+    font-family: "Rubik", sans-serif !important;
+}
+/* Showcase */
+.showcase h2 {
+    font-size: 3rem;
+}
+.animate__backInRight ,
+.animate__backInLeft {
+    animation-duration: 2s;
+}
+/* Services */
+.services .row .col-lg-4:nth-child(odd) .number-box {
+    background-color: #E9E4FB;
+    color: #917AEB
+}
+.services .row .col-lg-4:nth-child(even) .number-box {
+    color: #51B56D;
+    background-color: #DCF0E2;
+    
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+.feature-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+.q {
+    background-color:#fafafa;
+}
